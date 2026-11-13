@@ -1,0 +1,5 @@
+﻿target,exploratory,n_actives_records,n_empty_smiles,n_actives_standardized,n_actives_dedup,n_actives_final,capped_at_800,n_decoys,decoy_ratio
+PDE4B,False,1720,8,1703,1651,800,True,6238,7.8
+PFKFB3,False,286,0,286,273,273,False,2658,9.74
+EPAS1,False,273,0,270,244,244,False,2437,9.99
+PDK4,True,44,0,44,44,44,False,440,10.0

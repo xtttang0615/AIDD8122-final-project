@@ -1,0 +1,162 @@
+﻿query_method,molecule_chembl_id,pref_name,smiles,max_phase,efo_terms,n_indications
+efo_term__contains=myocardial infarction,CHEMBL1014,CANDESARTAN CILEXETIL,CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1017,TELMISARTAN,CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1055,CHLORTHALIDONE,NS(=O)(=O)c1cc(C2(O)NC(=O)c3ccccc32)ccc1Cl,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1064,SIMVASTATIN,CCC(C)(C)C(=O)O[C@H]1C[C@@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@H]21,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1069,VALSARTAN,CCCCC(=O)N(Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1)[C@H](C(=O)O)C(C)C,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL107,COLCHICINE,COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1[C@@H](NC(C)=O)CC2,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1083385,CLOPIDOGREL BISULFATE,COC(=O)[C@H](c1ccccc1Cl)N1CCc2sccc2C1.O=S(=O)(O)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1095097,EPLERENONE,COC(=O)[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@@]23O[C@@H]2C[C@@]2(C)[C@@H](CC[C@@]24CCC(=O)O4)[C@H]13,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1097279,CANGRELOR TETRASODIUM,CSCCNc1nc(SCCC(F)(F)F)nc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])C(Cl)(Cl)P(=O)([O-])[O-])[C@@H](O)[C@H]1O.[Na+].[Na+].[Na+].[Na+],4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL11,IMIPRAMINE,CN(C)CCCN1c2ccccc2CCc2ccccc21,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1138,EZETIMIBE,O=C1[C@H](CC[C@H](O)c2ccc(F)cc2)[C@@H](c2ccc(O)cc2)N1c1ccc(F)cc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1144,PRAVASTATIN,CC[C@H](C)C(=O)O[C@H]1C[C@H](O)C=C2C=C[C@H](C)[C@H](CC[C@@H](O)C[C@@H](O)CC(=O)O)[C@H]21,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1148,TORSEMIDE,Cc1cccc(Nc2ccncc2S(=O)(=O)NC(=O)NC(C)C)c1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1168,RAMIPRIL,CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCC[C@@H]21,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1174,EPTIFIBATIDE,N=C(N)NCCCC[C@@H]1NC(=O)CCSSC[C@@H](C(N)=O)NC(=O)[C@@H]2CCCN2C(=O)[C@H](Cc2c[nH]c3ccccc23)NC(=O)[C@H](CC(=O)O)NC(=O)CNC1=O,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL117822,ETHYLENE,C=C,3.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200343,PERINDOPRIL ERBUMINE,CC(C)(C)N.CCC[C@H](N[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCCC[C@@H]21)C(=O)OCC,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200402,AMLODIPINE BESYLATE,CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl.O=S(=O)(O)c1ccccc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200535,THALLOUS CHLORIDE TL 201,,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200561,DOXAZOSIN MESYLATE,COc1cc2nc(N3CCN(C(=O)C4COc5ccccc5O4)CC3)nc(N)c2cc1OC.CS(=O)(=O)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200574,SODIUM CHLORIDE,[Cl-].[Na+],4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1200644,FONDAPARINUX SODIUM,CO[C@H]1O[C@H](COS(=O)(=O)[O-])[C@@H](O[C@@H]2O[C@@H](C(=O)[O-])[C@@H](O[C@H]3O[C@H](COS(=O)(=O)[O-])[C@@H](O[C@@H]4O[C@H](C(=O)[O-])[C@@H](O[C@H]5O[C@H](COS(=O)(=O)[O-])[C@@H](O)[C@H](O)[C@H]5NS(=O)(=O)[O-])[C@H](O)[C@H]4O)[C@H](OS(=O)(=O)[O-])[C@H]3NS(=O)(=O)[O-])[C@H](O)[C@H]2OS(=O)(=O)[O-])[C@H](O)[C@H]1NS(=O)(=O)[O-].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+],4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200689,NITRIC OXIDE,[N]=O,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200692,OLMESARTAN MEDOXOMIL,CCCc1nc(C(C)(C)O)c(C(=O)OCc2oc(=O)oc2C)n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200694,SEVOFLURANE,FCOC(C(F)(F)F)C(F)(F)F,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200699,DOXYCYCLINE,C[C@H]1c2cccc(O)c2C(=O)C2=C(O)[C@]3(O)C(=O)C(C(N)=O)=C(O)[C@@H](N(C)C)[C@@H]3[C@@H](O)[C@@H]21.O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200711,OMEGA-3-ACID ETHYL ESTERS,CC/C=C\C/C=C\C/C=C\C/C=C\C/C=C\C/C=C\CCC(=O)OCC.CC/C=C\C/C=C\C/C=C\C/C=C\C/C=C\CCCC(=O)OCC,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200731,POTASSIUM CHLORIDE,[Cl-].[K+],4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1200879,WARFARIN SODIUM,CC(=O)CC(c1ccccc1)c1c([O-])c2ccccc2oc1=O.[Na+],4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201167,CARVEDILOL PHOSPHATE,COc1ccccc1OCCNCC(O)COc1cccc2[nH]c3ccccc3c12.O=P(O)(O)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201174,SITAGLIPTIN PHOSPHATE,N[C@@H](CC(=O)N1CCn2c(nnc2C(F)(F)F)C1)Cc1cc(F)c(F)cc1F.O.O=P(O)(O)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201301,MANGAFODIPIR,,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201476,ENOXAPARIN SODIUM,,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1201497,INSULIN GLARGINE,,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201565,EPOETIN ALFA,,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201566,DARBEPOETIN ALFA,,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1201567,FILGRASTIM,,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1201570,ANAKINRA,,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201584,ABCIXIMAB,,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1201593,ALTEPLASE,,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201599,HUMAN IMMUNOGLOBULIN G,,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201613,INSULIN GLULISINE,,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201625,CHOLESTYRAMINE,,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201631,INSULIN HUMAN,,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1201636,HYALURONIDASE,,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201649,"ESTROGENS, CONJUGATED",,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201668,NESIRITIDE,,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1201772,PRASUGREL,CC(=O)Oc1cc2c(s1)CCN(C(C(=O)C1CC1)c1ccccc1F)C2,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1201773,PRASUGREL HYDROCHLORIDE,CC(=O)Oc1cc2c(s1)CCN(C(C(=O)C1CC1)c1ccccc1F)C2.Cl,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1222250,DEXTROSE,OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1234886,OXYGEN,O=O,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1237,LISINOPRIL ANHYDROUS,NCCCC[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1269025,EDOXABAN,CN1CCc2nc(C(=O)N[C@@H]3C[C@@H](C(=O)N(C)C)CC[C@@H]3NC(=O)C(=O)Nc3ccc(Cl)cn3)sc2C1,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1293,BETA CAROTENE,CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)C(C)(C)CCC1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1294,QUINIDINE,C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL13,METOPROLOL,COCCc1ccc(OCC(O)CNC(C)C)cc1,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1364,PYRIDOXINE,Cc1ncc(CO)c(CO)c1O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1393,SPIRONOLACTONE,CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1422,SITAGLIPTIN,N[C@@H](CC(=O)N1CCn2c(nnc2C(F)(F)F)C1)Cc1cc(F)c(F)cc1F,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1464,WARFARIN,CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1487,ATORVASTATIN,CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(=O)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1491,AMLODIPINE,CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1496,ROSUVASTATIN,CC(C)c1nc(N(C)S(C)(=O)=O)nc(-c2ccc(F)cc2)c1/C=C/[C@@H](O)C[C@@H](O)CC(=O)O,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1519,TRANDOLAPRIL,CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@H]2CCCC[C@@H]21,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1534,RIBOFLAVIN,Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)[C@H](O)CO)c2cc1C,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1556,INOSINE,O=c1[nH]cnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,3.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1557,DOPAMINE HYDROCHLORIDE,Cl.NCCc1ccc(O)c(O)c1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1560,CAPTOPRIL,C[C@H](CS)C(=O)N1CCC[C@H]1C(=O)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL160,CYCLOSPORINE,C/C=C/C[C@@H](C)[C@@H](O)[C@H]1C(=O)N[C@@H](CC)C(=O)N(C)CC(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@H](C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](C(C)C)C(=O)N1C,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL1622,FOLIC ACID,Nc1nc(=O)c2nc(CNc3ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc3)cnc2[nH]1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1639,ALISKIREN,COCCCOc1cc(C[C@@H](C[C@H](N)[C@@H](O)C[C@H](C(=O)NCC(C)(C)C(N)=O)C(C)C)C(C)C)ccc1OC,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1644695,SODIUM IODIDE,[I-].[Na+],4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1663,PERFLUTREN,FC(F)(F)C(F)(F)C(F)(F)F,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL1771,CLOPIDOGREL,COC(=O)[C@H](c1ccccc1Cl)N1CCc2sccc2C1,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL196,ASCORBIC ACID,O=C1O[C@H]([C@@H](O)CO)C(O)=C1O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL198362,RIVAROXABAN,O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2062335,METOPROLOL TARTRATE,COCCc1ccc(OCC(O)CNC(C)C)cc1.COCCc1ccc(OCC(O)CNC(C)C)cc1.O=C(O)C(O)C(O)C(=O)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2097081,NITROPRUSSIDE,,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2103744,MORPHINE SULFATE,CN1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5.CN1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5.O.O.O.O.O.O=S(=O)(O)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2103745,SAXAGLIPTIN,N#C[C@@H]1C[C@@H]2C[C@@H]2N1C(=O)[C@@H](N)C12CC3CC(CC(O)(C3)C1)C2.O,3.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2103828,ELINOGREL,CNc1cc2[nH]c(=O)n(-c3ccc(NC(=O)NS(=O)(=O)c4ccc(Cl)s4)cc3)c(=O)c2cc1F,2.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2107386,VORAPAXAR SULFATE,CCOC(=O)N[C@@H]1CC[C@@H]2[C@@H](C1)C[C@H]1C(=O)O[C@H](C)[C@H]1[C@H]2/C=C/c1ccc(-c2cccc(F)c2)cn1.O=S(=O)(O)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2107830,EMPAGLIFLOZIN,OC[C@H]1O[C@@H](c2ccc(Cl)c(Cc3ccc(O[C@H]4CCOC4)cc3)c2)[C@H](O)[C@@H](O)[C@@H]1O,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL2107872,DELCASERTIB,,2.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2107885,RETEPLASE,,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2107979,PEXELIZUMAB,,3.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2108147,STREPTOKINASE,,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL2108243,CORN OIL,,3.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2108518,GELATIN,,3.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2108791,TENECTEPLASE,,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL2109092,EPOETIN BETA,,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL2109128,LENOGRASTIM,,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2109488,INCLACUMAB,,3.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2110563,CYANOCOBALAMIN,,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL230011,TG100-115,Nc1nc(N)c2nc(-c3cccc(O)c3)c(-c3cccc(O)c3)nc2n1,2.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2356097,METOPROLOL SUCCINATE,COCCc1ccc(OCC(O)CNC(C)C)cc1.COCCc1ccc(OCC(O)CNC(C)C)cc1.O=C(O)CCC(=O)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL2364655,EVOLOCUMAB,,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL24,ATENOLOL,CC(C)NCC(O)COc1ccc(CC(N)=O)cc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL25,ASPIRIN,CC(=O)Oc1ccccc1C(=O)O,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL27,PROPRANOLOL,CC(C)NCC(O)COc1cccc2ccccc12,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL284906,NICORANDIL,O=C(NCCO[N+](=O)[O-])c1cccnc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL3137301,SACUBITRIL,CCOC(=O)[C@H](C)C[C@@H](Cc1ccc(-c2ccccc2)cc1)NC(=O)CCC(=O)O,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL3189072,TIROFIBAN HYDROCHLORIDE,CCCCS(=O)(=O)N[C@@H](Cc1ccc(OCCCCC2CCNCC2)cc1)C(=O)O.Cl.O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL334966,CANGRELOR,CSCCNc1nc(SCCC(F)(F)F)nc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)C(Cl)(Cl)P(=O)(O)O)[C@@H](O)[C@H]1O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL34259,METHOTREXATE,CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL35,FUROSEMIDE,NS(=O)(=O)c1cc(C(=O)O)c(NCc2ccco2)cc1Cl,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL3544909,CALCIFEDIOL,C=C1CC[C@H](O)C/C1=C/C=C1\CCC[C@]2(C)[C@@H]([C@H](C)CCCC(C)(C)O)CC[C@@H]12.O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL3545058,DEXTROTHYROXINE SODIUM,N[C@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)[O-].O.[Na+],4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL389621,HYDROCORTISONE,C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL393220,ATORVASTATIN CALCIUM,CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(=O)[O-].CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(=O)[O-].[Ca+2],4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL395429,OXYTOCIN,CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H](N)CSSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL398435,TICAGRELOR,CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL3989507,EDETATE DISODIUM,O.O.O=C([O-])CN(CCN(CC(=O)[O-])CC(=O)O)CC(=O)O.[Na+].[Na+],4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL3989727,VITAMIN E,,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL3989857,MAGNESIUM SULFATE,O.O.O.O.O.O.O.O=S(=O)([O-])[O-].[Mg+2],4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL3989943,DAPANSUTRILE,CS(=O)(=O)CCC#N,2.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL412531,THYMOSIN,CC[C@H](C)[C@@H](NC(=O)[C@@H](CCC(=O)O)NC(=O)[C@@H](CO)NC(=O)[C@@H](CO)NC(=O)[C@H](NC(=O)[C@@H](CC(=O)O)NC(=O)[C@H](NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@@H](CC(=O)O)NC(=O)[C@@H](CO)NC(=O)[C@H](N)CS)C(C)C)C(C)C)C(=O)N[C@@H](C(=O)N[C@@H](C(=O)N[C@H](CCCCN)C(=O)N[C@H](CC(=O)O)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CCC(=O)O)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CCC(=O)O)C(=O)N[C@@H](C(=O)N[C@@H](C(=O)N[C@H](CCC(=O)O)C(=O)N[C@H](CCC(=O)O)C(=O)N[C@@H](C)C(=O)N[C@H](CCC(=O)O)C(=O)O)C(C)C)C(C)C)C(C)C)[C@H](C)O,3.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL414357,EXENATIDE,CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@@H](NC(=O)[C@H](C)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CO)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](NC(=O)CNC(=O)[C@H](CCC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1cnc[nH]1)[C@@H](C)O)[C@@H](C)O)C(C)C)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(N)=O)C(=O)NCC(=O)NCC(=O)N1CCC[C@H]1C(=O)N[C@@H](CO)C(=O)N[C@@H](CO)C(=O)NCC(=O)N[C@@H](C)C(=O)N1CCC[C@H]1C(=O)N1CCC[C@H]1C(=O)N1CCC[C@H]1C(=O)N[C@@H](CO)C(N)=O,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL419213,LISINOPRIL,NCCCC[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O.O.O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL4297285,HEME ARGINATE,,3.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL4297401,CALDARET MONOHYDRATE,Cc1ccc(N2CCNCC2)c(S(=O)(=O)O)c1.O,2.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL4297500,TRO-40303,CC(C)CCC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC/C(=N\O)[C@](C)(CCCO)[C@H]3CC[C@]12C,2.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL4297511,FIRIBASTAT,N[C@@H](CCS(=O)(=O)O)CSSC[C@@H](N)CCS(=O)(=O)O,3.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL4297589,SELATOGREL,CCCCOC(=O)N1CCN(C(=O)[C@H](CP(=O)(O)O)NC(=O)c2cc(N3CC[C@H](OC)C3)nc(-c3ccccc3)n2)CC1,3.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL4297596,FULACIMSTAT,Cn1c(=O)oc2cc(-n3cc(C(=O)O)c(=O)n([C@@H]4CCc5c4cccc5C(F)(F)F)c3=O)ccc21,2.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL4297694,ANFIBATIDE,,2.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL4297879,.ALPHA.1-PROTEINASE INHIBITOR HUMAN,,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL429910,DAPAGLIFLOZIN,CCOc1ccc(Cc2cc([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)ccc2Cl)cc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL435,HYDROCHLOROTHIAZIDE,NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL45,MELATONIN,COc1ccc2[nH]cc(CCNC(C)=O)c2c1,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL4650299,HEPARIN,,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL4650416,PLASMALYTE A,,3.0,anterolateral myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL4650513,GOFLIKICEPT,,3.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL471,SOTALOL,CC(C)NCC(O)c1ccc(NS(C)(=O)=O)cc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL477,ADENOSINE,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL4802129,BALIXAFORTIDE,C[C@@H]1NC(=O)[C@H](Cc2c[nH]cn2)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H]2CCCN2C(=O)[C@H]2CCCN2C(=O)[C@H](CCCCN)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H]2CSSC[C@H](NC1=O)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N1CCC[C@@H]1C(=O)N[C@@H](CCN)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)N2,3.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL490,PAROXETINE,Fc1ccc([C@@H]2CCNC[C@H]2COc2ccc3c(c2)OCO3)cc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL494,ILOPROST,CC#CCC(C)[C@H](O)/C=C/[C@@H]1[C@H]2C/C(=C/CCCC(=O)O)C[C@H]2C[C@H]1O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL521606,NADOLOL,CC(C)(C)NCC(O)COc1cccc2c1CC(O)C(O)C2,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL529,AZITHROMYCIN,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)CN(C)[C@H](C)[C@@H](O)[C@]1(C)O,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL5314348,BIVALIRUDIN,,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL558,MEXILETINE,Cc1cccc(C)c1OCC(C)N,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL565,CLOFIBRATE,CCOC(=O)C(C)(C)Oc1ccc(Cl)cc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL573,NIACIN,O=C(O)c1cccnc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL600,ACETYLCYSTEINE,CC(=O)N[C@@H](CS)C(=O)O,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL6068333,CLOPIDOGREL BESILATE,COC(=O)[C@H](c1ccccc1Cl)N1CCc2sccc2C1.O=S(=O)(O)c1ccccc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL6068338,CLOPIDOGREL HYDROCHLORIDE,COC(=O)[C@H](c1ccccc1Cl)N1CCc2sccc2C1.Cl,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL6068340,PRASUGREL BESYLATE,CC(=O)Oc1cc2c(s1)CCN(C(C(=O)C1CC1)c1ccccc1F)C2.O=S(=O)(O)c1ccccc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL6068343,CLOPIDOGREL HYDROBROMIDE,Br.COC(=O)[C@H](c1ccccc1Cl)N1CCc2sccc2C1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL631,PROPAFENONE,CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL633,AMIODARONE,CCCCc1oc2ccccc2c1C(=O)c1cc(I)c(OCCN(CC)CC)c(I)c1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL640,PROCAINAMIDE,CCN(CC)CCNC(=O)c1ccc(N)cc1,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL690,PRAVASTATIN SODIUM,CC[C@H](C)C(=O)O[C@H]1C[C@H](O)C=C2C=C[C@H](C)[C@H](CC[C@@H](O)C[C@@H](O)CC(=O)[O-])[C@H]21.[Na+],4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL70,MORPHINE,CN1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL707,DOXAZOSIN,COc1cc2nc(N3CCN(C(=O)C4COc5ccccc5O4)CC3)nc(N)c2cc1OC,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL70927,DEFERIPRONE,Cc1c(O)c(=O)ccn1C,4.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL723,CARVEDILOL,COc1ccccc1OCCNCC(O)COc1cccc2[nH]c3ccccc3c12,4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL730,NITROGLYCERIN,O=[N+]([O-])OCC(CO[N+](=O)[O-])O[N+](=O)[O-],4.0,myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL8085,LYSINE,NCCCC[C@H](N)C(=O)O,2.0,acute myocardial infarction,1
+efo_term__contains=myocardial infarction,CHEMBL916,TIROFIBAN,CCCCS(=O)(=O)N[C@@H](Cc1ccc(OCCCCC2CCNCC2)cc1)C(=O)O,4.0,acute myocardial infarction;myocardial infarction,2
+efo_term__contains=myocardial infarction,CHEMBL93268,SODIUM NITRITE,O=N[O-].[Na+],4.0,acute myocardial infarction,1

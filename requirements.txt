@@ -1,0 +1,18 @@
+# Python 依赖（本机实际版本，安装于 C:/Anaconda/Anaconda3）
+numpy>=2.3
+pandas>=2.3
+scipy>=1.16
+scikit-learn>=1.7
+xgboost>=3.4
+rdkit>=2026.9
+matplotlib>=3.10
+seaborn>=0.13
+statsmodels>=0.14
+pyarrow>=21.0
+requests>=2.32
+adjustText>=1.4
+python-docx>=1.1
+
+# 非 pip 依赖（不在此文件安装）
+# - pandoc（生成 DOCX）：https://pandoc.org
+# - R 4.6.1 + limma / AnnotationDbi / hgu133plus2.db（差异分析，见 README）

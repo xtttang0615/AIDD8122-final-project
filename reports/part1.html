@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="docx-page-size" content="A4">
+<title>AIDD8122 Final Report</title>
+<style>
+@page {
+  size: A4;
+  margin: 2.5cm 2.4cm 2.4cm 2.4cm;
+  @bottom-center { content: counter(page); }
+}
+@page cover { @bottom-center { content: none; } }
+section[role="cover"] { page: cover; }
+
+:root {
+  --fs-body: 11.5pt;
+  --fs-h1: 15pt;
+  --fs-h2: 12.5pt;
+  --fs-h3: 11.5pt;
+  --fs-small: 9.5pt;
+  --ff-body: "Times New Roman", Times, serif;
+  --ff-head: "Arial", Helvetica, sans-serif;
+  --lh: 1.55;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh);
+  color: #111111;
+  margin: 0;
+}
+h1, h2, h3 { font-family: var(--ff-head); color: #111111; page-break-after: avoid; }
+h1 { font-size: var(--fs-h1); margin: 1.6em 0 0.7em 0; border-bottom: 1.2pt solid #333333; padding-bottom: 0.25em; }
+h2 { font-size: var(--fs-h2); margin: 1.3em 0 0.5em 0; }
+h3 { font-size: var(--fs-h3); margin: 1.0em 0 0.4em 0; font-style: italic; }
+p { margin: 0 0 0.65em 0; text-align: justify; }
+ul, ol { margin: 0.2em 0 0.8em 0; padding-left: 1.4em; }
+li { margin-bottom: 0.35em; text-align: justify; }
+.small { font-size: var(--fs-small); }
+.muted { color: #555555; }
+.center { text-align: center; }
+.caption { font-size: 9.5pt; text-align: left; margin: 0.3em 0 1.2em 0; line-height: 1.35; }
+.caption b { font-family: var(--ff-head); }
+figure { margin: 1.0em 0 0.6em 0; page-break-inside: avoid; }
+figure img { width: 100%; display: block; }
+table { border-collapse: collapse; width: 100%; font-size: 9.5pt; margin: 0.4em 0 0.3em 0; page-break-inside: avoid; }
+th, td { border: 0.5pt solid #999999; padding: 3.5pt 4pt; vertical-align: top; text-align: left; }
+th { background: #eef1f4; font-family: var(--ff-head); font-weight: bold; font-size: 9pt; }
+td.num, th.num { text-align: center; }
+.tabnote { font-size: 9pt; color: #333333; margin: 0.15em 0 1.1em 0; line-height: 1.3; }
+.cover { text-align: center; }
+.cover p { text-align: center; text-indent: 0; }
+.cover .inst { font-family: var(--ff-head); font-size: 11pt; letter-spacing: 0.5pt; margin-top: 2.2cm; line-height: 1.5; }
+.cover .prog { font-family: var(--ff-head); font-size: 10.5pt; margin-top: 0.6cm; color: #333333; }
+.cover .course { font-family: var(--ff-head); font-size: 11pt; margin-top: 2.6cm; }
+.cover .title { font-family: var(--ff-head); font-size: 18pt; font-weight: bold; line-height: 1.4; margin: 1.2cm 1.4cm 0.6cm 1.4cm; }
+.cover .subtitle { font-size: 12pt; font-style: italic; color: #333333; margin: 0 2.0cm 2.2cm 2.0cm; }
+.cover .meta { font-size: 11pt; line-height: 1.9; margin: 0.1cm 0; }
+.cover .meta:first-of-type { margin-top: 1.4cm; }
+.cover .meta b { font-family: var(--ff-head); }
+table.tocT { border: none; width: 100%; font-size: 9.6pt; line-height: 1.1; margin: 0.2em 0 0 0; page-break-inside: auto; }
+table.tocT td { border: none; padding: 0.9pt 0; vertical-align: bottom; text-align: left; line-height: 1.1; }
+table.tocT td.tp { text-align: right; width: 8%; }
+table.tocT td.toc2 { font-size: 9.3pt; color: #222222; }
+.abstract { font-size: 10.5pt; line-height: 1.5; }
+.abstract p { text-align: justify; }
+.keybox { border-left: 2.5pt solid #444444; background: #f5f6f7; padding: 0.7em 0.9em; margin: 0.9em 0 1.0em 0; font-size: 10pt; line-height: 1.45; }
+.refs p { text-indent: -1.6em; padding-left: 1.6em; text-align: left; font-size: 10pt; margin-bottom: 0.4em; line-height: 1.4; }
+code { font-family: "Courier New", monospace; font-size: 9.5pt; }
+.pagebreak { page-break-before: always; }
+.nobreak { page-break-inside: avoid; }
+</style>
+</head>
+<body>
+
+<section role="cover" class="cover">
+  <p class="inst">FACULTY OF APPLIED SCIENCES</p>
+  <p class="inst" style="margin-top:0.15cm;">DOCTOR OF PHILOSOPHY IN ARTIFICIAL INTELLIGENCE DRIVEN DRUG DISCOVERY</p>
+  <p class="course">AIDD8122 &ndash; Advanced Topics in Artificial Intelligence &amp; Drug Discovery</p>
+  <p class="title">A Leakage-Audited, Exploratory Pipeline for Transcriptomic Target Discovery and Ligand-Based Drug Prioritisation in Acute Myocardial Infarction</p>
+  <p class="subtitle">From a ten-gene circulating endothelial cell signature to a critically evaluated repurposing shortlist</p>
+  <p class="meta"><b>Student ID:</b> available in the submitted PDF</p>
+  <p class="meta"><b>Student Name:</b> Tang Hushuangyin</p>
+  <p class="meta"><b>Submission Date:</b> 16/11/2026</p>
+  <p class="meta"><b>Code repository:</b> https://github.com/USERNAME/AIDD8122-final-project</p>
+</section>
+
+<section class="pagebreak">
+<h1 style="text-align:center;border-bottom:none;margin-top:0.2em;">Abstract</h1>
+<div class="abstract">
+<p>Acute myocardial infarction (AMI) remains the leading cause of cardiovascular death, yet its early diagnosis still relies on markers of myonecrosis that rise only after irreversible injury. Circulating endothelial cells (CECs) detach from the injured coronary bed and therefore carry a transcriptional record of the ruptured plaque and the activated endothelium. We asked whether such a record can be converted, through a fully documented computational pipeline, into a defensible list of druggable targets and repurposing candidates &ndash; and, equally importantly, how much of that list survives a deliberate attempt to falsify it.</p>
+<p>Using 43 discovery and 56 internal validation samples from GSE66360 (CD146+ CECs) and 52 independent samples from GSE48060 (whole blood, first-time AMI within 48 h), we built a pipeline in which differential expression is re-estimated inside every outer fold and feature selection is confined to the training partition, and in which ligand-model splits are grouped by Bemis&ndash;Murcko scaffold. Two design limits are stated up front: probe selection was performed once on all 99 GSE66360 samples, and classifier choice was made on the discovery cohort outside the outer loop. The resulting ten-gene signature discriminated cases from controls with a nested cross-validated AUC of 0.961 (95% CI 0.890&ndash;1.000), fell to 0.842 in the same-cohort validation subset and to 0.608 (95% CI 0.442&ndash;0.770) in the independent whole-blood cohort, where the locked threshold produced zero sensitivity &ndash; external transport is therefore not supported. Target prioritisation yielded one strict target (PDE4B, selected in 5/5 folds) and seven relaxed targets. Ligand-based models trained on ChEMBL actives reached near-saturated precision&ndash;recall performance (AP 0.968&ndash;0.993); label permutation did not reveal the anomalies it can detect, while cross-target hard negatives showed that the models retain some target-specific information even though both benchmarks are easy. Applied to 1,823 approved small molecules that overlap the training data of none of the three main-target models, the PDE4B model ranked the known PDE4 inhibitor crisaborole first (score 0.890), but placed a second known PDE4 inhibitor, ibudilast, at rank 1,282/1,823 (score 0.008), and ranked the non-PDE4 benzoxaborole tavaborole second. A pre-specified, exploratory indication test found no enrichment of the 89 de-duplicated ChEMBL molecules carrying a myocardial-infarction indication record (p = 0.48&ndash;0.75).</p>
+<p>The study delivers a documented, audited and openly negative result: PDE4B is the prioritised candidate for follow-up, but with one positive and one missed control, ligand-based ranking of approved drugs is not validated, and the apparent success of the top hit is partly explained by chemotype and molecular-size bias. We argue that reporting this boundary is more useful than reporting a shortlist.</p>
+<p class="small muted"><b>Keywords:</b> acute myocardial infarction; circulating endothelial cells; transcriptomic signature; nested cross-validation; data leakage; ligand-based virtual screening; drug repurposing; PDE4B.</p>
+</div>
+</section>
+
+<section class="pagebreak">
+<h1>Table of Contents</h1>
+<table class="tocT">
+<tr><td class="tl toc1"><b>1. Introduction</b></td><td class="tp"><b>6</b></td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1 Clinical problem</td><td class="tp">6</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2 Why a computational repurposing pipeline</td><td class="tp">6</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3 Contributions and scope</td><td class="tp">7</td></tr>
+<tr><td class="tl toc1"><b>2. Literature Review</b></td><td class="tp"><b>8</b></td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 Transcriptomic signatures of AMI in circulating blood</td><td class="tp">8</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2 From signature to target</td><td class="tp">8</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3 Ligand-based virtual screening and its evaluation traps</td><td class="tp">9</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4 PDE4B: the best-characterised link to AMI</td><td class="tp">9</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5 EPAS1/HIF-2α and PFKFB3: direction matters</td><td class="tp">10</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.6 Research gap</td><td class="tp">11</td></tr>
+<tr><td class="tl toc1"><b>3. Research Questions and Objectives</b></td><td class="tp"><b>12</b></td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1 Research questions</td><td class="tp">12</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2 Objectives</td><td class="tp">12</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3 Pre-specified decision rules and success criteria</td><td class="tp">12</td></tr>
+<tr><td class="tl toc1"><b>4. Methods and Materials</b></td><td class="tp"><b>14</b></td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1 Data sources and cohort definitions</td><td class="tp">14</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2 Preprocessing</td><td class="tp">15</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3 Differential expression</td><td class="tp">16</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4 Signature selection and three-tier validation</td><td class="tp">16</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.5 Target prioritisation</td><td class="tp">17</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6 Ligand dataset construction</td><td class="tp">18</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7 Scaffold-aware splits and models</td><td class="tp">18</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8 Metrics</td><td class="tp">19</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.9 Diagnostic experiments</td><td class="tp">19</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.10 Approved-drug scoring and shortlist construction</td><td class="tp">19</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.11 Indication enrichment test</td><td class="tp">20</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.12 Software, reproducibility and deviations from plan</td><td class="tp">20</td></tr>
+<tr><td class="tl toc1"><b>5. Results and Discussion</b></td><td class="tp"><b>21</b></td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1 Cohorts, preprocessing and differential expression</td><td class="tp">21</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2 Signature performance across three tiers</td><td class="tp">22</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3 High discrimination, low stability</td><td class="tp">25</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.4 Target prioritisation</td><td class="tp">27</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.5 Ligand model performance and saturation</td><td class="tp">27</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.6 Diagnostics: is there leakage, and is the signal target-specific?</td><td class="tp">30</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.7 Approved-drug ranking and the shortlist</td><td class="tp">31</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.8 Control analysis: one hit, one miss, one unconfirmed high scorer</td><td class="tp">34</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.9 Indication enrichment: a pre-specified negative result</td><td class="tp">36</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.10 Post-hoc robustness of the shortlist</td><td class="tp">38</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.11 What the results do and do not support</td><td class="tp">39</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.12 Limitations</td><td class="tp">40</td></tr>
+<tr><td class="tl toc2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.13 Future work</td><td class="tp">41</td></tr>
+<tr><td class="tl toc1"><b>6. Conclusions</b></td><td class="tp"><b>42</b></td></tr>
+<tr><td class="tl toc1"><b>7. References</b></td><td class="tp"><b>44</b></td></tr>
+<tr><td class="tl toc1"><b>Appendix A. Supplementary tables</b></td><td class="tp"><b>47</b></td></tr>
+<tr><td class="tl toc1"><b>Appendix B. Audit of the analysis pipeline</b></td><td class="tp"><b>49</b></td></tr>
+</table>
+</section>
+
+<section class="pagebreak">
+<h1>1. Introduction</h1>
+
+<h2>1.1 Clinical problem</h2>
+<p>Acute myocardial infarction (AMI) is caused by abrupt thrombotic occlusion of a coronary artery and remains the single largest contributor to cardiovascular mortality worldwide. Reperfusion is highly effective but time-dependent: myocardial salvage falls steeply with every additional 30 minutes of ischaemia, so the clinical value of a diagnostic test lies in how early and how specifically it can identify an occluded artery. Current practice relies on the electrocardiogram and on cardiac troponin. Both have well-known limitations. Troponin is released only after cardiomyocyte necrosis has already occurred, it is elevated in myocarditis, pulmonary embolism, sepsis and chronic kidney disease, and in non-ST-elevation presentations it requires serial sampling over hours. A marker that reports on the <i>vascular</i> event itself &ndash; plaque destabilisation, endothelial activation, neutrophil&ndash;endothelial adhesion &ndash; rather than on its myocardial consequence would therefore be complementary to troponin rather than a replacement for it.</p>
+
+<p>Circulating endothelial cells (CECs) are a direct shed product of the injured coronary bed. They are rare in healthy blood, increase markedly after AMI, and carry a transcriptome that reflects the activated, damaged endothelium from which they detached. This makes them an unusually interpretable substrate for a transcriptomic signature: unlike whole blood, in which the signal is dominated by leukocyte composition, CEC profiles are enriched for endothelial activation, adhesion and angiogenesis programmes.</p>
+
+<h2>1.2 Why a computational repurposing pipeline</h2>
+<p>The second half of the problem is therapeutic. De novo drug development takes more than a decade and fails in the great majority of cases, largely because of efficacy rather than safety. Drug repurposing &ndash; finding a second indication for an already approved molecule &ndash; shortens this path because pharmacokinetics, safety and manufacturing are already characterised. The computational version of repurposing has two separable steps: first, decide <i>which</i> protein to modulate; second, decide <i>which</i> existing molecule modulates it. Both steps can be automated, and both are easy to automate badly.</p>
+
+<p>This is the methodological pivot of the present work. A pipeline of the form &ldquo;differential expression &rarr; machine-learning signature &rarr; target lookup &rarr; ligand-based scoring&rdquo; can be assembled in a few hundred lines of code and will almost always produce a ranked list of drugs. The interesting question is not whether such a list can be produced, but whether any part of it is true. Three failure modes recur in published student and even peer-reviewed work of this type: (i) <b>selection leakage</b>, where features are chosen on the full dataset before cross-validation, producing an AUC near 1.0 that cannot be reproduced; (ii) <b>decoy bias</b>, where a ligand classifier separates true actives from randomly chosen &ldquo;decoys&rdquo; that differ in size, hydrophobicity and complexity, so that a near-perfect precision&ndash;recall AUC measures little more than the ability to recognise drug-like molecules; and (iii) <b>surrogate-endpoint enrichment</b>, where the ranking is validated against an indication label that is only loosely related to the target. We designed the study so that each of these failure modes is measured rather than assumed absent.</p>
+
+<h2>1.3 Contributions and scope</h2>
+<p>The work makes four contributions.</p>
+<ul>
+<li><b>A fully documented transcriptomic pipeline with an explicit leakage audit.</b> Differential expression is re-estimated inside every outer cross-validation fold and feature selection is confined to training partitions, and the three resulting performance estimates (optimistic, fixed-pool, fully nested) are reported side by side so that the size of each bias is visible rather than hidden. The optimistic estimate is AUC 1.000; the nested one is 0.961, and it belongs to a pipeline in which limma and gene selection are re-run inside each fold &ndash; it is not the performance of the fixed ten-gene model. Two limits are not covered by this audit: probes were selected once on all 99 discovery samples before splitting, and classifier choice was made outside the outer loop.</li>
+<li><b>An explicit external-transfer test with a pre-locked threshold.</b> Rather than tuning a decision threshold on the external cohort, the threshold obtained in the discovery cohort is carried forward unchanged. The resulting zero sensitivity is reported as a result about threshold transport, not as a footnote.</li>
+<li><b>A ligand-model evaluation that separates real signal from benchmark easiness.</b> Label permutation returned performance at the level of the positive-class prevalence, i.e. it did not reveal the anomalies that this check can detect; cross-target hard negatives and prevalence-matched down-sampling indicate that the ranking carries some target-specific information, while both benchmarks remain saturated.</li>
+<li><b>An honest control analysis of the repurposing shortlist.</b> The pipeline's top hit is a known PDE4 inhibitor recovered without having been seen in training; but a second known PDE4 inhibitor in the same library is ranked 1,282nd of 1,823, and the second-ranked molecule is a chemically related non-PDE4 drug. We report all three, and we quantify the molecular-size and chemotype bias that produces them.</li>
+</ul>
+<p>The scope is deliberately restricted to <i>ranking</i>. The pipeline does not predict binding affinity, does not distinguish agonists from antagonists, and does not model pharmacokinetics or systemic exposure. Every statement in Section 5 is framed accordingly.</p>
+
+</section>
+
+<h1>2. Literature Review</h1>
+
+<h2>2.1 Transcriptomic signatures of AMI in circulating blood</h2>
+<p>The idea that a peripheral blood sample contains a usable molecular signature of AMI has been pursued for over fifteen years. Muse and colleagues established the dataset used here (GSE66360): they isolated CD146-positive CECs from 49 patients with AMI and 50 healthy controls, split the cohort into a 43-sample discovery set and a 56-sample validation set, and reported a whole-blood molecular signature that identified AMI without relying on myonecrosis [1]. The design is important for two reasons. First, it is one of the few AMI transcriptomic studies performed in an endothelial-enriched fraction rather than in unfractionated whole blood, which makes the resulting genes biologically interpretable. Second, the discovery/validation split is provided by the original submitters and recorded in the sample titles, so it can be reproduced exactly rather than invented.</p>
+
+<p>A second, independent resource is GSE48060, in which Suresh and colleagues profiled 52 peripheral blood samples: 21 normal controls and 31 patients with first-time AMI sampled within 48 hours, of whom 5 experienced recurrent events during 18 months of follow-up [2]. The original purpose of that study was prognostic &ndash; to find transcripts associated with recurrence &ndash; and its case definition (first-time AMI within 48 h) makes it a legitimate, if imperfect, external test set for a diagnostic signature. Its main difference from GSE66360 is cellular: whole blood rather than enriched CECs. That difference is precisely what makes it a useful stress test.</p>
+
+<p>Both studies are small by modern standards (43&ndash;99 samples), single-platform (Affymetrix HG-U133 Plus 2.0), and single-centre. Reported signatures from this literature overlap poorly with each other, a pattern familiar from the broader biomarker literature: with 20,000 transcripts and 50 samples, the number of near-equivalent discriminative gene sets is enormous, and a signature selected on one cohort is unlikely to be the same set selected on another. This is not a reason to abandon signature discovery, but it does mean that any new signature must be accompanied by an honest estimate of its <i>stability</i>, not only of its discrimination. We therefore report both.</p>
+
+<h2>2.2 From signature to target</h2>
+<p>Converting a gene list into a target list requires external knowledge, and the quality of that knowledge varies enormously across genes. The Open Targets Platform integrates genetic association, somatic mutation, expression, literature mining, known drugs and animal models into a single association score per gene&ndash;disease pair, and adds &ldquo;tractability&rdquo; annotations describing whether a target has a small-molecule pocket, a structure with a bound ligand, or an approved drug [3]. For a cardiovascular indication such as AMI, genetic association evidence is sparse compared with, for example, autoimmune disease, so the overall score is dominated by literature and known-drug evidence. This has a subtle consequence: targets that already have drugs score higher, which is convenient for repurposing but circular if the score is then used as independent evidence of tractability.</p>
+
+<p>ChEMBL provides the complementary piece: measured bioactivities linking compounds to targets, together with approved-drug indications [4]. STRING adds protein&ndash;protein interaction context [5]. Used together, these resources answer three different questions &ndash; is this gene associated with the disease, is it chemically tractable, and does it sit in a coherent interaction network &ndash; and it is important not to conflate them.</p>
+
+<h2>2.3 Ligand-based virtual screening and its evaluation traps</h2>
+<p>When a receptor structure is unavailable, ligand-based screening remains the default: molecules are represented by fingerprints such as ECFP4 [6], and a classifier is trained to separate known actives from presumed inactives. Random forests [7] are a common and robust choice for this task. The evaluation, however, is where most published pipelines overstate themselves.</p>
+
+<p>Three issues are directly relevant to the present study. First, <b>splitting</b>. Random splits place near-identical analogues of the same chemotype in both training and test sets, so the model is rewarded for memorising congeneric series rather than for generalising. Scaffold-based grouping [8] and time-split validation [9] were introduced to counter this; both substantially reduce reported performance in realistic benchmarks. Second, <b>decoy construction</b>. Property-matched decoys are better than random ones, but even matched decoys remain trivially separable when the active set consists of large, hydrophobic, multi-ring compounds from a single medicinal-chemistry series. Wallach and Heifets showed that many ligand-classification benchmarks reward memorisation rather than generalisation [10]. Third, <b>metric choice</b>. Precision&ndash;recall curves are more informative than ROC curves under class imbalance [11], but PR-AUC is also strongly dependent on the positive prevalence, so it cannot be compared across benchmarks with different positive rates; ROC-AUC, or a prevalence-normalised lift, must be used instead. A PR-AUC of 0.99 on a benchmark with 11% positives may correspond to a lift of less than 9 and to no useful prospective enrichment at all.</p>
+
+<p>These considerations shaped our design: scaffold-grouped folds, property-matched decoys with a Tanimoto ceiling, positive-prevalence reporting for every benchmark, label permutation, and two independent hard-negative tests.</p>
+
+<h2>2.4 PDE4B: the best-characterised link to AMI</h2>
+<p>Phosphodiesterase 4B hydrolyses intracellular cAMP and is expressed predominantly in inflammatory and endothelial cells. In 2022, Wan and colleagues reported that among the four PDE4 subtypes only PDE4B is upregulated in the mouse heart after ischaemia&ndash;reperfusion; that deletion of PDE4B markedly reduces infarct size and preserves cardiac function at 24 hours and 28 days, with bone-marrow chimeras implicating myeloid PDE4B and vascular PDE4B contributing further; that PDE4B drives neutrophil&ndash;endothelial adhesion, neutrophil infiltration and cytokine release through a cAMP&ndash;PKA axis; and that PDE4B blockade improves coronary microvascular perfusion and endothelium-dependent dilatation [12]. Importantly, post-ischaemic administration of the pan-PDE4 inhibitor piclamilast reproduced the protection, and serum from AMI patients impaired acetylcholine-induced relaxation of human coronary microarteries in a PDE4-inhibitable manner. The authors concluded that selective PDE4B inhibition might protect patients with AMI undergoing reperfusion [12]. A 2026 correction notice for this article exists [25]; its content could not be obtained, so the description above rests on the original abstract and is not certified against the corrected version.</p>
+
+<p>Several approved drugs inhibit PDE4: roflumilast (COPD), apremilast (psoriasis), crisaborole (atopic dermatitis, topical) and ibudilast (asthma and post-stroke dizziness in Japan). None is PDE4B-selective. Crisaborole is a benzoxaborole with an IC<sub>50</sub> of approximately 0.49 &micro;M against PDE4 [13], later re-measured at 75 nM against the PDE4B2 catalytic domain [14]; ibudilast inhibits recombinant human PDE4B with an IC<sub>50</sub> of 65 nM [15]. Both are therefore genuine, if modest-potency, PDE4B binders, and both are relevant controls for any PDE4B scoring model.</p>
+
+<h2>2.5 EPAS1/HIF-2&alpha; and PFKFB3: direction matters</h2>
+<p>EPAS1 encodes HIF-2&alpha;, the hypoxia-inducible transcription factor that predominates in cardiac vascular endothelium. Endothelial-specific deletion of Hif2&alpha; in adult mice increases mortality, cardiac leakage, inflammation and adverse remodelling after MI, and loss of HIF-2&alpha; in human cardiac microvascular endothelial cells impairs barrier integrity [16]. HIF-2&alpha; is therefore <i>protective</i> in the post-infarct endothelium. This matters because the only approved HIF-2&alpha; drug, belzutifan, is an <i>inhibitor</i>, developed for von Hippel&ndash;Lindau disease and renal cell carcinoma where the therapeutic goal is to suppress HIF-2&alpha;-driven angiogenesis [24]. A ligand-based model that simply asks &ldquo;does this molecule look like a HIF-2&alpha; binder?&rdquo; cannot distinguish a desirable activator from an undesirable inhibitor, and will systematically enrich for the latter, because that is what the medicinal-chemistry literature contains.</p>
+
+<p>PFKFB3 presents the same problem in a different guise. Endothelial PFKFB3 is the rate-limiting enzyme of endothelial glycolysis and is required for sprouting angiogenesis; its deletion or inhibition suppresses vascular sprouting in vitro and in vivo [17]. In the repair phase after MI, angiogenesis is desirable, so an inhibitor of PFKFB3 may be counter-therapeutic even if it binds the target well. PFKFB3 inhibitors (3PO, PFK15, PFK-158) have been developed mainly as anti-angiogenic anticancer agents, and PFK-158 reached phase I before being discontinued. Here too, the direction of the desired pharmacological effect is opposite to the dominant direction of the available chemical matter.</p>
+
+<p>PDE4B is the exception: PDE4B is up-regulated in AMI, inhibition is protective in animal models, and the medicinal-chemistry literature is dominated by inhibitors. For PDE4B, therefore, &ldquo;looks like a binder&rdquo; and &ldquo;is therapeutically plausible&rdquo; point in the same direction. For EPAS1 and PFKFB3 they do not.</p>
+
+<h2>2.6 Research gap</h2>
+<p>Three gaps motivate this study. First, AMI transcriptomic signatures are usually reported with a single, optimistic performance estimate and without an external transfer test across cell types. Second, target-prioritisation and ligand-scoring steps are usually reported as a seamless pipeline, without separating the contribution of the transcriptomic layer, the annotation layer and the chemical layer. Third, and most importantly, ligand-based repurposing studies rarely report <i>control molecules</i> &ndash; known actives that the model should find and known non-actives that it should not &ndash; so the reader cannot judge whether a top-ranked drug is a success or an artefact. This study addresses all three, and treats the third as a primary analysis rather than a sensitivity check.</p>
+
+<h1>3. Research Questions and Objectives</h1>
+
+<h2>3.1 Research questions</h2>
+<p><b>RQ1 (transportability).</b> Can a transcriptomic signature of AMI derived from circulating endothelial cells discriminate cases from controls within the discovery cohort under fully nested cross-validation, and does it transfer to an independent whole-blood cohort when the decision threshold is locked in advance?</p>
+<p><b>RQ2 (target derivation).</b> Which genes of the cross-fold signature pool are annotated as associated with myocardial infarction and chemically tractable, and how sensitive is the resulting target list to the stringency of the annotation rule?</p>
+<p><b>RQ3 (ligand-level validity).</b> Can a scaffold-split, fingerprint-based classifier rank approved drugs according to target-specific chemotype similarity, and how much of the apparent performance survives label permutation, cross-target hard negatives and prevalence normalisation?</p>
+<p><b>RQ4 (orthogonal evidence).</b> Do approved drugs with a registered AMI indication score higher than other approved drugs, as would be expected if the ranking captured anything beyond chemotype similarity?</p>
+
+<h2>3.2 Objectives</h2>
+<ol>
+<li>To build a reproducible pipeline from public transcriptomic data to a ranked repurposing list, with every intermediate artefact written to disk and version-controlled.</li>
+<li>To quantify, rather than assume away, the optimism introduced by feature selection, threshold selection and scaffold splitting.</li>
+<li>To identify a small number of targets whose evidence is concordant across the signature, the annotation layer and the literature.</li>
+<li>To evaluate the ligand models with at least two independent adversarial tests before applying them to approved drugs.</li>
+<li>To produce a shortlist whose uncertainty is stated explicitly, together with a control analysis of known actives and known non-actives.</li>
+</ol>
+
+<h2>3.3 Pre-specified decision rules and success criteria</h2>
+<p>Because several analyses involve thresholds, the rules below were fixed before the corresponding results were inspected. They are listed here so that the reader can judge whether the study met its own criteria.</p>
+<div class="keybox">
+<p><b>R1 (signature model).</b> The main performance estimate is the fully nested cross-validated AUC, in which limma and stability selection are re-run inside every outer training fold. The fixed-pool and optimistic estimates are reported only as bias references.</p>
+<p><b>R2 (signature selection).</b> Genes with bootstrap selection frequency &ge; 0.50 enter the signature; if fewer than five genes meet this criterion, the top ten by selection frequency and then by random-forest importance are taken and the fallback is flagged in the output.</p>
+<p><b>R3 (threshold).</b> A single decision threshold obtained from the discovery cohort (Youden index) is applied unchanged to the internal and external cohorts. No cohort-specific threshold is searched.</p>
+<p><b>R4 (target rules).</b> Strict: Open Targets overall association &ge; 0.10. Relaxed: overall association &ge; 0.05 <i>or</i> at least one known drug. Strict is the primary analysis; relaxed is exploratory.</p>
+<p><b>R5 (ligand model).</b> Default XGBoost; if the mean PR-AUC of XGBoost and random forest across the three main targets differs by less than 0.02, random forest is selected as the simpler model. Splits are frozen after generation and reused by all downstream experiments.</p>
+<p><b>R6 (success criteria).</b> Transfer is considered supported if external AUC &ge; 0.75. Indication enrichment is considered supported if the one-sided Mann&ndash;Whitney p &lt; 0.05. Ligand-level chemotype recognition is considered supported if at least two independent known ligands of the target are recovered within the top 1% of the approved-drug library. These thresholds are deliberately conservative.</p>
+<p><b>R7 (reporting policy).</b> All pre-specified analyses are reported irrespective of direction. Analyses added after inspection of results are labelled <i>post hoc</i>.</p>
+</div>
+<p>Two rules were added after the first pass and are therefore explicitly post hoc: the relaxed target rule R4b (added when the strict rule returned a single target) and the rank-based consensus analysis in Section 5.10 (added when the arithmetic-mean aggregation was found to be sensitive to score scale). Both are labelled as such wherever they appear.</p>
+</body>
+</html>
+
+

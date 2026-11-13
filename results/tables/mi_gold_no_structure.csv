@@ -1,0 +1,39 @@
+﻿molecule_chembl_id,pref_name,max_phase,efo_terms
+CHEMBL1200535,THALLOUS CHLORIDE TL 201,4.0,myocardial infarction
+CHEMBL1201301,MANGAFODIPIR,4.0,myocardial infarction
+CHEMBL1201476,ENOXAPARIN SODIUM,4.0,acute myocardial infarction;myocardial infarction
+CHEMBL1201497,INSULIN GLARGINE,4.0,acute myocardial infarction
+CHEMBL1201565,EPOETIN ALFA,4.0,myocardial infarction
+CHEMBL1201566,DARBEPOETIN ALFA,4.0,acute myocardial infarction;myocardial infarction
+CHEMBL1201567,FILGRASTIM,4.0,acute myocardial infarction;myocardial infarction
+CHEMBL1201570,ANAKINRA,4.0,acute myocardial infarction
+CHEMBL1201584,ABCIXIMAB,4.0,acute myocardial infarction;myocardial infarction
+CHEMBL1201593,ALTEPLASE,4.0,myocardial infarction
+CHEMBL1201599,HUMAN IMMUNOGLOBULIN G,4.0,acute myocardial infarction
+CHEMBL1201613,INSULIN GLULISINE,4.0,acute myocardial infarction
+CHEMBL1201625,CHOLESTYRAMINE,4.0,myocardial infarction
+CHEMBL1201631,INSULIN HUMAN,4.0,acute myocardial infarction;myocardial infarction
+CHEMBL1201636,HYALURONIDASE,4.0,myocardial infarction
+CHEMBL1201649,"ESTROGENS, CONJUGATED",4.0,myocardial infarction
+CHEMBL1201668,NESIRITIDE,4.0,acute myocardial infarction;myocardial infarction
+CHEMBL2097081,NITROPRUSSIDE,4.0,myocardial infarction
+CHEMBL2107872,DELCASERTIB,2.0,myocardial infarction
+CHEMBL2107885,RETEPLASE,4.0,myocardial infarction
+CHEMBL2107979,PEXELIZUMAB,3.0,acute myocardial infarction
+CHEMBL2108147,STREPTOKINASE,4.0,acute myocardial infarction;myocardial infarction
+CHEMBL2108243,CORN OIL,3.0,myocardial infarction
+CHEMBL2108518,GELATIN,3.0,acute myocardial infarction
+CHEMBL2108791,TENECTEPLASE,4.0,acute myocardial infarction;myocardial infarction
+CHEMBL2109092,EPOETIN BETA,4.0,acute myocardial infarction;myocardial infarction
+CHEMBL2109128,LENOGRASTIM,4.0,acute myocardial infarction
+CHEMBL2109488,INCLACUMAB,3.0,myocardial infarction
+CHEMBL2110563,CYANOCOBALAMIN,4.0,myocardial infarction
+CHEMBL2364655,EVOLOCUMAB,4.0,myocardial infarction
+CHEMBL3989727,VITAMIN E,4.0,myocardial infarction
+CHEMBL4297285,HEME ARGINATE,3.0,acute myocardial infarction
+CHEMBL4297694,ANFIBATIDE,2.0,myocardial infarction
+CHEMBL4297879,.ALPHA.1-PROTEINASE INHIBITOR HUMAN,4.0,acute myocardial infarction
+CHEMBL4650299,HEPARIN,4.0,acute myocardial infarction;myocardial infarction
+CHEMBL4650416,PLASMALYTE A,3.0,anterolateral myocardial infarction;myocardial infarction
+CHEMBL4650513,GOFLIKICEPT,3.0,myocardial infarction
+CHEMBL5314348,BIVALIRUDIN,4.0,acute myocardial infarction;myocardial infarction

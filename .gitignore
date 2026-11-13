@@ -1,0 +1,12 @@
+data/raw/
+data/interim/
+data/processed/*.csv
+data/processed/*.npz
+__pycache__/
+*.pyc
+~$*
+
+# 课程资料与历史备份（非项目产物，不入库）
+AIDD8122_Final_Project_Guidelines.pdf
+AIDD8122_Final_Project_Presentation_Groups.pdf
+archive/reports/_backup_before_20261106/

@@ -1,0 +1,13 @@
+﻿check,target,pre_standardization,post_standardization,detail,n_cross_fold_keys
+actives_vs_decoys_overlap,EPAS1,0.0,0.0,,
+actives_vs_decoys_overlap,PDE4B,0.0,0.0,,
+actives_vs_decoys_overlap,PDK4,0.0,0.0,,
+actives_vs_decoys_overlap,PFKFB3,0.0,0.0,,
+cross_fold_scaffold/group_key,PDE4B,,,,0.0
+cross_fold_inchikey14,PDE4B,,,,0.0
+cross_fold_scaffold/group_key,PFKFB3,,,,0.0
+cross_fold_inchikey14,PFKFB3,,,,0.0
+cross_fold_scaffold/group_key,EPAS1,,,,0.0
+cross_fold_inchikey14,EPAS1,,,,0.0
+cross_fold_scaffold/group_key,PDK4,,,,0.0
+cross_fold_inchikey14,PDK4,,,,0.0

@@ -1,0 +1,2 @@
+"dataset","role","n_sample","n_case","n_control","threshold_main","n_up_main","n_down_main","n_sig_main","threshold_relaxed","n_sig_relaxed"
+"GSE66360","train",43,21,22,"|logFC|>1 & adj.P.Val<0.05",370,28,398,"|logFC|>0.5 & adj.P.Val<0.05",816

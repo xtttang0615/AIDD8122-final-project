@@ -1,0 +1,4 @@
+﻿set,n,calibration_slope,calibration_intercept,brier,mean_prob
+internal_val,56,0.2987,0.9087,0.1606,0.3454
+external,52,0.4048,2.6108,0.5849,0.0079
+external_zscored,52,0.0889,0.3686,0.3145,0.5178
