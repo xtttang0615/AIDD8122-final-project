@@ -43,7 +43,7 @@
 <p>[25] Correction to: Targeting PDE4B (phosphodiesterase-4 subtype B) for cardioprotection in acute myocardial infarction via neutrophils and microcirculation. <i>Circulation Research</i>. 2026. doi:10.1161/RES.0000000000000747. PMID: 41747012.</p>
 </div>
 
-<h1 class="pagebreak">Appendix A. Supplementary tables</h1>
+<h1 class="pagebreak">Appendix A. Supplementary tables and figures</h1>
 
 <p><b>Table A1.</b> Composition of the five fold-specific signatures. Every fold triggered the top-10 fallback because fewer than five genes reached a selection frequency of 0.50 within that fold. Twenty-eight distinct genes appear across the five folds; PDE4B is the only gene common to all of them.</p>
 <table>
@@ -84,6 +84,12 @@
 <tr><td>cLogP</td><td class="num">0.093</td><td class="num">0.001</td><td class="num">0.024</td><td class="num">0.033</td></tr>
 </table>
 <div class="tabnote">Molecular weight shows a consistent positive association and cLogP a near-zero one, consistent with the models tracking a size envelope of the training chemotypes rather than lipophilicity. These are associations only and are not interpreted as a causal mechanism. Values computed with RDKit [21].</div>
+
+<img src="__IMG__figA1_qc_composite.png__" alt="Sample-level quality control">
+<p class="caption"><b>Figure A1.</b> Sample-level quality control for GSE66360. Left: principal-component analysis of all 99 samples coloured by group; cases and controls overlap, with no separation by processing batch. Right: per-sample intensity densities after log<sub>2</sub> transformation and quantile normalisation; the distributions are superimposed, so no sample required exclusion. These panels support the comparability of the discovery and internal validation subsets; they are not used as evidence for any biological claim.</p>
+
+<img src="__IMG__fig2h_heatmap_top50.png__" alt="Top-50 DEG heatmap">
+<p class="caption"><b>Figure A2.</b> Heatmap of the 50 most significant differentially expressed genes in the 43 training samples (rows: genes, z-scored across samples; columns: samples ordered by group). The up-regulated block contains PDE4B and the other signature genes, and the two groups separate without visible sample-level outliers. This is a descriptive companion to Figure 2 and is not used to select features.</p>
 
 <h1 class="pagebreak">Appendix B. Audit of the analysis pipeline</h1>
 
