@@ -1,7 +1,0 @@
-﻿pref_name,chembl_id,annotation,inchikey14,status,in_training,prob_PDE4B,rank_PDE4B,rank_PDE4B_denom,tied_with,rank_consensus_mean_pct
-CRISABOROLE,CHEMBL484785,"PDE4 inhibitor (approved, topical)",USZAGAREISWJDP,independent (not in training),False,0.89,1.0,1823.0,1.0,1.0
-ROFLUMILAST,CHEMBL193240,PDE4 inhibitor (approved),,excluded: training positive,True,,,,,
-APREMILAST,CHEMBL514800,PDE4 inhibitor (approved),,excluded: training positive,True,,,,,
-IBUDILAST,CHEMBL19449,"PDE4 inhibitor (approved, Japan)",ZJVFLBOZORBYFE,independent (not in training),False,0.008,1282.0,1823.0,81.0,1429.0
-TAVABOROLE,CHEMBL443052,"LeuRS inhibitor (antifungal), not a PDE4 inhibitor",LFQDNHWZDQTITF,independent (not in training),False,0.508,2.0,1823.0,1.0,49.0
-CILOSTAZOL,CHEMBL799,PDE3 inhibitor (negative control for PDE4),RRGUKTPIGVIEKM,independent (not in training),False,0.088,206.0,1823.0,7.0,131.0
